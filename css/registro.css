@@ -1,9 +1,9 @@
 :root{
     --navbar-size: 50px;
-   /* background-image: url(/css/img/phase-4-marvel-movies.jpg);*/
+    /*background-image: url(/css/img/evenger4.jpg);*/
     background-position: center;
     background-size: cover;
-    background:black;
+    background:rgb(23, 62, 99);
 }
 
 @media only screen and (min-width: 1000px) {
@@ -13,41 +13,65 @@ body{
     grid-template-areas: "head head"
                          "menu main"
                          "none none";                   
-    grid-gap: 10px;
+    grid-gap: 15px;
+ }
 }
+
+@media only screen and (max-width: 1000px){
+    #divh1{
+        text-align: center;
+    }
+    #divh2{
+        margin-left: 10%;
+        margin-top: 30px;
+    }
+    #divh3{
+        margin: 10%;
+    }
 }
 
 @font-face {
-    font-family: '';
-    src: url();
+    font-family: 'Fontdiner Swanky';
+    src: url(/css/Font/FontdinerSwanky-Regular.ttf);
+}
+
+#h1-div{
+    font-family: 'Fontdiner Swanky';
+    font-size: 40px;
+    color: rgb(190, 0, 3);
+    margin-left: 30px;
 }
 
 .div-h1{
     grid-area: head;
-    border: 1px solid white;
-    color: rgb(255, 1, 5);
-    width: 100%;
-    height: 100px;
+   /* border: 1px solid white;*/  
+    margin:-8px;
+    width: 101%;
+    height: 130px;
+    background-image: url(/css/img/jtron.jpg);
 }
 
 .div-h2{
-    border: 1px solid white;
+    background-color: rgb(34, 27, 27);
+   /* border: 1px solid white;*/
     height: 550px;
     width: 400px;
-    margin-left: 20%;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 20px 20px 20px 20px;
 }
 
 .div-h2-hijo{ 
-    display: flex;
-    border: 1px solid white;
+    background-image: url(/css/img/vikingos-serie-1550764019.jpg);
+   /* border: 1px solid white;*/
     width: 100%;
     height: 200px;
-    
+    border-radius: 20px 20px 0px 0px;
 }
 
 .div-father-input{
     grid-area: main;
-    border: 10px solid white;
+    /*border: 10px solid white;*/
     height: 550px;
     width: 400px;
     text-align: center;
@@ -58,13 +82,21 @@ body{
 .h2-div{
     color: white;
     margin: 3%;
+    font-family: 'Fontdiner Swanky';
+    font-size: 23px;
+}
+
+ul{
+    list-style-image: url("http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/24/Ok-icon.png");
+    color: rgb(5, 176, 255);
 }
 
 #div-input{
     display: block;
-    border: 1px solid white;
+  /*  border: 1px solid white;*/
     height: 100px;
 }
+
 label{
     color:white;
     font-size: 16px;
