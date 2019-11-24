@@ -1,12 +1,13 @@
 :root{
     --navbar-size: 50px;
-    /*background-image: url(/css/img/evenger4.jpg);*/
     background-position: center;
     background-size: cover;
-    background:rgb(23, 62, 99);
+    /*background-image: url(/css/img/fotoEditadaMain.jpg);*/
+      background: linear-gradient(to right, rgb(0, 0, 0), rgb(19, 41, 165), rgb(27, 229, 236));
+      /*background:rgb(23, 62, 99);*/
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1100px) {
 body{
     display: grid;
     grid-template-columns: 1fr;
@@ -17,16 +18,23 @@ body{
  }
 }
 
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1100px){
+  
     #divh1{
-        text-align: center;
+        display: grid;
+        width: 105%;
     }
+
     #divh2{
         margin-left: 10%;
-        margin-top: 30px;
+        margin-top: 35px;
     }
     #divh3{
         margin: 10%;
+    }
+
+    label{
+        color: white;
     }
 }
 
@@ -70,8 +78,9 @@ body{
 }
 
 .div-father-input{
+    /*display: inline-block;*/
     grid-area: main;
-    /*border: 10px solid white;*/
+   /* border: 10px solid white;*/
     height: 550px;
     width: 400px;
     text-align: center;
@@ -86,6 +95,11 @@ body{
     font-size: 23px;
 }
 
+#h2-div3{
+    font-size: 50px;
+    margin-left: 50px; 
+}
+
 ul{
     list-style-image: url("http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/24/Ok-icon.png");
     color: rgb(5, 176, 255);
@@ -98,8 +112,8 @@ ul{
 }
 
 label{
-    color:white;
-    font-size: 16px;
+    /*color:rgb(0, 0, 0);*/
+    font-size: 20px;
 }
 
 #email{
@@ -115,6 +129,17 @@ label{
     margin-right: 30px;
 }
 
+.box{
+    /*color: rgb(0, 0, 0);*/
+    font-size: 20px;
+    margin-bottom: 150px;
+}
+
+#box{
+    width: 17px;
+    height: 17px;
+}
+
 #sub{  
     margin: 30px;
     margin-left: 30px;
@@ -126,6 +151,6 @@ label{
 
 nav a{
     font-size:20px;
-    color: rgb(44, 156, 201);
+    color: rgb(82, 4, 75);
 }
 
