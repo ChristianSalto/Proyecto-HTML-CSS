@@ -1,6 +1,7 @@
 
 .container {
-  color: blanchedalmond;
+  /*color: blanchedalmond;*/
+  background: linear-gradient(70deg, black, white);
   margin: 0 auto;
   max-width: 100%;
   min-height: 100vh;
@@ -10,7 +11,6 @@
                        "aside-left" "main" "aside-right"
                        "footer" "footer" "footer";
 
-  grid-row-gap:10px;
 }
  
 .header {
@@ -25,14 +25,12 @@
   grid-area: animacion;
   height: auto;
   width: auto;
-  background: brown;
 }
  
 .aside-left {
     grid-area: aside-left;
     height: auto;
     width: auto;
-    background-color: darkmagenta;
 }
 
 .main {

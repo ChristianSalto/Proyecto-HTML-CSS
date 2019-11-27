@@ -1,0 +1,42 @@
+.aside-left{
+    display: grid;
+    border: 1px solid black;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 200px 300px;
+}
+
+.div-a-L{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    border: 1px solid black;
+}
+
+.efecto{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    border: 1px solid black;
+}
+
+.pelis-año{
+    grid-row: 2/2;
+    text-align: center;
+    width: 250px;
+    font-size: 20px;
+    border: 1px solid black;
+}
+
+.h2-div-L{
+    text-align: center;
+    font-size: 30px;
+}
+
+.select-L{
+    font-size: 20px;
+    border: 0px;
+    background: white;
+}
+
+.categorias{
+    font-size: 20px;
+    color: teal;
+}

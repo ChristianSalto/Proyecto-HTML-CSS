@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="../css/hd-ch.css">
+    <link rel="stylesheet" href="../css/conteiner.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/animaciones.css">
+    <link rel="stylesheet" href="../css/aside-left.css">
     <title></title>
 </head>
 
@@ -15,12 +16,14 @@
     <div class="container">
         <header class="header">
             <nav class="nav">
-                <div class="logo"><h1 class="h1-logo">HD-CH.com</h1></div>
+                <div class="logo">
+                    <h1 class="h1-logo">HD-CH.com</h1>
+                </div>
                 <div class="div-nav">
                     <ul class="ul-nav">
-                        <li class="li-nav"><a href="pelis" class="a-nav">Peliculas</a></li>
-                        <li class="li-nav"><a href="series" class="a-nav">Series</a></li>
-                        <li class="li-nav"><a href="docu" class="a-nav">Documentales</a></li>
+                        <li class="li-nav"><a href="#pelis" class="a-nav">Peliculas</a></li>
+                        <li class="li-nav"><a href="#series" class="a-nav">Series</a></li>
+                        <li class="li-nav"><a href="#docu" class="a-nav">Documentales</a></li>
                     </ul>
                     <div class=" div-search">
                         <input type="search" class="search" placeholder="busca tu pelicula">
@@ -30,18 +33,31 @@
             </nav>
             <div class="buscador"></div>
         </header>
-        <div class="animacion"></div>
+        <div class="div-anim">
+            <div class="animacion">
+                <div class="anim-1"></div>
+                <div class="anim-2"></div>
+                <div class="anim-3"></div>
+                <div class="anim-4"></div>
+                <div class="anim-5"></div>
+                <div class="anim-6"></div>
+                <div class="anim-7"></div>
+            </div>
+        </div>
         <aside class="aside-left">
             <div class="div-a-L">
-                <select name="categoria" id="L">
-                    <option value="1">Categorias</option>
-                    <option value="2">Ficcion</option>
-                    <option value="3">Terror</option>
-                    <option value="4">Romantico</option>
-                    <option value="5">Belica</option>
+                <h2 class="h2-div-L">POR GENEROS:</h2>
+                <p class="categorias">Categorias:</p>
+                <select name="categoria" class="select-L">
+                    <option value="1">Ficcion</option>
+                    <option value="2">Terror</option>
+                    <option value="3">Romantico</option>
+                    <option value="4">Belica</option>
                 </select>
             </div>
+            <div class="efecto"></div>
             <div class="pelis-año">
+                <h2 class="h2-div-L2">POR AÑO:</h2>
                 <a href="">2000</a>
                 <a href="">2001</a>
                 <a href="">2002</a>
