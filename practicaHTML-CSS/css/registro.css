@@ -3,7 +3,8 @@
     background-position: center;
     background-size: cover;
     /*background-image: url(/css/img/fotoEditadaMain.jpg);*/
-      background: linear-gradient(to right, rgb(0, 0, 0), rgb(19, 41, 165), rgb(27, 229, 236));
+    background: -webkit-gradient(linear, left top, right top, from(rgb(0, 0, 0)), color-stop(rgb(19, 41, 165)), to(rgb(27, 229, 236)));
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(19, 41, 165), rgb(27, 229, 236));
       /*background:rgb(23, 62, 99);*/
 }
 
@@ -40,7 +41,7 @@ body{
 
 @font-face {
     font-family: 'Fontdiner Swanky';
-    src: url(/practicaHTML-CSS/css/Font/FontdinerSwanky-Regular.ttf);
+    src: url(../css/Font/FontdinerSwanky-Regular.ttf);
 }
 
 #h1-div{
@@ -56,7 +57,7 @@ body{
     margin:-8px;
     width: 101%;
     height: 130px;
-    background-image: url(/practicaHTML-CSS/css/img/jtron.jpg);
+    background-image: url(../css/img/jtron.jpg);
 }
 
 .div-h2{
@@ -70,7 +71,7 @@ body{
 }
 
 .div-h2-hijo{ 
-    background-image: url(/practicaHTML-CSS/css/img/vikingos-serie-1550764019.jpg);
+    background-image: url(../css/img/vikingos-serie-1550764019.jpg);
    /* border: 1px solid white;*/
     width: 100%;
     height: 200px;
@@ -105,7 +106,7 @@ ul{
     color: rgb(5, 176, 255);
 }
 
-#div-input{
+.div-input{
     display: block;
   /*  border: 1px solid white;*/
     height: 100px;
@@ -116,31 +117,27 @@ label{
     font-size: 20px;
 }
 
-#email{
+#gmail{
+    margin-right: -10px;
     margin-top:30px;
     border-radius: 10px;
     font-size: 20px;
 }
 
-#pass{
+#password{
     margin-top:30px;
     border-radius: 10px;
     font-size: 20px;
     margin-right: 30px;
 }
 
-.box{
-    /*color: rgb(0, 0, 0);*/
-    font-size: 20px;
-    margin-bottom: 150px;
-}
-
 #box{
     width: 17px;
     height: 17px;
+    border: 5px solid white;
 }
 
-#sub{  
+#submit{  
     margin: 30px;
     margin-left: 30px;
     border-radius: 10px;

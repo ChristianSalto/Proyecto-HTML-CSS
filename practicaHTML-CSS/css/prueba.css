@@ -1,32 +1,77 @@
-main {
-  color: gainsboro;
-  margin: 0 auto;
-  max-width: 100%;
-  min-height: 100vh;
-  display: grid;
-  grid-template-columns: 50% 50%;
-  grid-template-rows: 100px 200px auto auto;
-}
- 
-header {
-  grid-column: 1/3;
-  background-color: blueviolet;
-}
- 
-nav {
-    grid-column: 1/3;
-    background-color: cornflowerblue;
-}
- 
-aside {
-    background-color: darkmagenta;
-}
- 
-section {
-    background-color: indigo;
-}
- 
-footer {
-    grid-column: 1/3;
-    background-color: darkorchid;
-}
+.grid {
+    display: grid;
+    grid-template-areas: "head head"
+                         "menu main"
+                         "foot foot";
+  }
+  
+  .a { grid-area: head; background: blue }
+  .b { grid-area: menu; background: red }
+  .c { grid-area: main; background: green }
+  .d { grid-area: foot; background: orange }
+
+
+
+
+  .A{
+      display: grid;
+      margin-top: 100px;
+      margin-left: 80px;
+      width: flex;
+      height: 200px;
+      border: 1px solid black;
+      grid-template-columns: 150px 150px 150px 150px 150px 150px 150px;
+      animation: rotar 10s infinite linear;
+      perspective: 1000px;
+      transform-style: preserve-3d;
+  }
+
+  .B{
+      border: 1px solid black;
+      background-image: url(../css/img/aladdin.jpg);
+      transform: rotateY(0deg) translateZ(-260px);
+  }
+
+  .C{
+    border: 1px solid black;
+    background-image: url(../css/img/adtral.jpg);
+    transform: rotateY(-40deg) translateZ(-260px);
+  }
+
+  .D{
+    border: 1px solid black;
+    background-image: url(../css/img/joker.jpg);
+    transform: rotateY(-80px) translateZ(-260px);
+  }
+
+  .E{
+    border: 1px solid black;
+    background-image: url(../css/img/adtral.jpg);
+    transform: rotateY(-120px) translateZ(-260px);
+  }
+  
+  .F{
+    border: 1px solid black;
+    background-image: url(../css/img/adtral.jpg);
+    transform: rotateY(-160px) translateZ(-260px);
+  }
+
+  .H{
+    border: 1px solid black;
+    background-image: url(../css/img/adtral.jpg);
+    transform: rotateY(-180px) translateZ(-260px);
+  }
+
+  .G{
+    border: 1px solid black;
+    background-image: url(../css/img/adtral.jpg);
+    transform: rotateY(-220px) translateZ(-260px);
+  }
+
+  @keyframes rotar{
+      from{
+          transform: rotateY(0deg);
+      }to{
+          transform: rotateY(360deg);
+      }
+  }
