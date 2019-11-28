@@ -13,7 +13,13 @@
     z-index: 999;
   }
 
+  @font-face {
+    font-family: 'Fontdiner Swanky';
+    src: url(../css/Font/FontdinerSwanky-Regular.ttf);
+}
+
   .h1-logo{
+      font-family: Fontdiner Swanky;
       margin-top: 40px;
       font-size: 40px;
       color:rgb(1, 228, 39);

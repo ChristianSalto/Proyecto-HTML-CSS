@@ -1,0 +1,85 @@
+/*Efectos del header:*/
+
+
+
+/*Efecto you are welcome:*/
+
+
+@font-face{
+    font-family: blacknight;
+    src: url(../css/Font/BlackKnightFLF.ttf);
+}
+
+.h1-welcome{
+    color: rgb(255, 0, 0);
+    font-family: blacknight;
+    font-size: 80px;
+    transform: translateX(-20%);
+    opacity: 0;
+}
+
+.efecto:hover .h1-welcome{
+    visibility: visible;
+    transform: translateX(0%);
+    transition: 5s;
+    opacity: 1;
+}
+
+
+/*Efectos de las peliculas*/
+
+
+.box-film{
+    margin: 10px;
+    width: 150px;
+    height: 200px;
+    position: relative;
+} 
+
+.box-film > div{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.front{
+    opacity: 0.70;
+    box-shadow: inset 0px 5px 20px black;
+}
+
+.back{
+    transform: translateZ(-100px)
+                rotateY(90deg);
+    left:70px;
+}
+
+.box-film{
+    transition-duration: 0.8s;
+    transform-style: preserve-3d;
+    transform-origin: left center;
+    transform: perspective(10000px);
+}
+
+.box-film:hover{
+    transform: perspective(1000px)
+               rotateY(-85deg);
+}
+
+.box-film:hover.front{
+    opacity: 1;
+}
+
+.p-back{
+    transform: translateY(-20%);
+    opacity: 0;
+}
+
+.back:hover .p-back{
+    visibility: visible;
+    transform: translateY(0%);
+    transition: 5s;
+    position: absolute;
+    z-index: 9999;
+    opacity: 1;
+}
+

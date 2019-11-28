@@ -2,54 +2,53 @@
 .container {
   /*color: blanchedalmond;*/
   background: linear-gradient(70deg, black, white);
+  border: 1px solid black;
   margin: 0 auto;
   max-width: 100%;
   min-height: 100vh;
   display: grid;
-  grid-template-areas: "header" "header" "header"
-                       "animacion" "animacion" "animacion"
-                       "aside-left" "main" "aside-right"
-                       "footer" "footer" "footer";
-
+  grid-template-columns: 25% 50% 25%;
+  grid-template-rows: flex flex flex flex;
+  grid-template-areas: "header header header"
+                       "animacion animacion animacion"
+                       "aside-left efecto aside-right"
+                       "aside-left main aside-right"
+                       "footer footer footer";
 }
  
 .header {
   grid-area: header;
-  height: auto;
-  width: auto;
-  background-color: blueviolet;
+  border: 3px solid black;
 }
 
 
-.animacion{
+.div-anim{
   grid-area: animacion;
-  height: auto;
-  width: auto;
+  border: 3px solid black;
 }
  
 .aside-left {
     grid-area: aside-left;
-    height: auto;
-    width: auto;
+    border: 5px solid black;
+}
+
+.efecto { 
+  grid-area: efecto;
+  text-align: center;
+  height: 150px;
+  border: 10px solid rgb(8, 206, 8);
 }
 
 .main {
   grid-area: main;
-  height: auto;
-  width: auto;
-  background-color: indigo;
 }
 
 .aside-right{
   grid-area: aside-right;
-  height: auto;
-  width: auto;
   background-color: rgb(139, 0, 0);
 }
  
 .footer {
     grid-area: footer;
-    height: auto;
-    width: auto;
     background-color: darkorchid;
 }
