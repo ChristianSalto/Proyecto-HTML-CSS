@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/aside-left.css">
     <link rel="stylesheet" href="../css/efectos.css">
     <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/aside-right.css">
     <title></title>
 </head>
 
@@ -28,8 +29,8 @@
                         <li class="li-nav"><a href="#docu" class="a-nav">Documentales</a></li>
                     </ul>
                     <div class=" div-search">
-                        <input type="search" class="search" placeholder="busca tu pelicula">
-                        <button class="button-search">Buscar</button>
+                        <input type="text" class="search" placeholder="buscando...">
+                        <button type="submit" class="button-search"><span class="icon-search"></span></button>
                     </div>
                 </div>
             </nav>
@@ -84,13 +85,16 @@
         <div class="efecto">
             <h1 class="h1-welcome">You are Welcome</h1>
         </div>
-        <main class="main">
+        <main class="main" id="pelis">
             <h3 class="h3-main">Ficcion</h3>
             <section class="ficcion">
                 <div class="box-film">
                     <div class="front"><img src="../css/img/joker.jpg" alt="joker"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
+                        <a href="">
+                            <h4>Play</h4>
+                        </a>
                         <h2>Sinopsis:</h2>
                         <p class="p-back">Arthur Fleck (Phoenix) es un hombre ignorado por la sociedad,
                             cuya motivación en la vida es hacer reír.
@@ -103,6 +107,9 @@
                     <div class="front"><img src="../css/img/aladdin.jpg" alt="aladdin"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
+                        <a href="">
+                            <h4>Play</h4>
+                        </a>
                         <h2>Sinopsis:</h2>
                         <p class="p-back">Aladdin es un adorable pero desafortunado ladronzuelo enamorado de la hija del
                             Sultán, la princesa Jasmine. Para intentar conquistarla, acepta el desafío de Jafar, que
@@ -115,6 +122,9 @@
                     <div class="front"><img src="../css/img/terminator.jpg" alt="termineitor 6"></div>
                     <div class="back">
                         <h1 class="h1-back">* * *</h1>
+                        <a href="">
+                            <h4>Play</h4>
+                        </a>
                         <h2>Sinopsis:</h2>
                         <p class="p-back">Sarah Connor une todas sus fuerzas con una mujer cyborg para proteger a una
                             joven de un extremadamente poderoso y nuevo Terminator.</p>
@@ -124,6 +134,9 @@
                     <div class="front"><img src="../css/img/edgame.jpeg" alt="edgame"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
+                        <a href="">
+                            <h4>Play</h4>
+                        </a>
                         <h2>Sinopsis:</h2>
                         <p class="p-back">Tras los sucesos de Vengadores: Infinity War, los superhéroes que
                             sobrevivieron a Thanos se reunen para poner en práctica un plan definitivo que podría acabar
@@ -135,155 +148,188 @@
             <h3 class="h3-main">Terror</h3>
             <section class="terror">
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/joker.jpg" alt="joker"></div>
-                    <div class="back">
-                        <h1 class="h1-back">* * * * *</h1>
-                        <h2>Sinopsis:</h2>
-                        <p class="p-back">Arthur Fleck (Phoenix) es un hombre ignorado por la sociedad,
-                            cuya motivación en la vida es hacer reír.
-                            Pero una serie de trágicos acontecimientos le llevarán a ver el mundo de otra forma.
-                            Película basada en Joker, el popular personaje de DC Comics y archivillano de Batman,
-                            pero que en este film toma un cariz más realista y oscuro.</p>
-                    </div>
-                </div>
-                <div class="box-film">
-                    <div class="front"><img src="../css/img/aladdin.jpg" alt="aladdin"></div>
-                    <div class="back">
-                        <h1 class="h1-back">* * * *</h1>
-                        <h2>Sinopsis:</h2>
-                        <p class="p-back">Aladdin es un adorable pero desafortunado ladronzuelo enamorado de la hija del
-                            Sultán, la princesa Jasmine. Para intentar conquistarla, acepta el desafío de Jafar, que
-                            consiste en entrar a una cueva en mitad del desierto para dar con una lámpara mágica que le
-                            concederá todos sus deseos. Allí es donde Aladdín conocerá al Genio, dando inicio a una
-                            aventura como nunca antes había imaginado.</p>
-                    </div>
-                </div>
-                <div class="box-film">
-                    <div class="front"><img src="../css/img/terminator.jpg" alt="termineitor 6"></div>
+                    <div class="front"><img src="../css/img/La_casa_del_terror.jpg" alt="La_casa_del_terror"></div>
                     <div class="back">
                         <h1 class="h1-back">* * *</h1>
+                        <a href="">
+                            <h4>Play</h4>
+                        </a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Sarah Connor une todas sus fuerzas con una mujer cyborg para proteger a una
-                            joven de un extremadamente poderoso y nuevo Terminator.</p>
+                        <p class="p-back">En Halloween, seis amigos deciden entrar en una casa encantada que promete
+                            ofrecer una experiencia extrema a base de explotar sus miedos más profundos. La noche se
+                            volverá mortal cuando se den cuenta de que algunos monstruos son reales.</p>
                     </div>
                 </div>
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/edgame.jpeg" alt="edgame"></div>
+                    <div class="front"><img src="../css/img/muñeco diabolico.jpeg" alt="muñeco diabolico"></div>
                     <div class="back">
-                        <h1 class="h1-back">* * * * *</h1>
+                        <h1 class="h1-back">* * *</h1>
+                        <a href="">
+                            <h4>Play</h4>
+                        </a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Tras los sucesos de Vengadores: Infinity War, los superhéroes que
-                            sobrevivieron a Thanos se reunen para poner en práctica un plan definitivo que podría acabar
-                            con el villano definitivamente. No saben si funcionará, pero es su única oportunidad de
-                            intentarlo. Cuarta entrega de la saga Vengadores.</p>
+                        <p class="p-back">Una madre le regala a su hijo un muñeco por su cumpleaños, sin ser consciente
+                            de la naturaleza maligna que esconde en su interior.</p>
+                    </div>
+                </div>
+                <div class="box-film">
+                    <div class="front"><img src="../css/img/halloween.jpg" alt="halloween"></div>
+                    <div class="back">
+                        <h1 class="h1-back">* * * *</h1>
+                        <a href="">
+                            <h4>Play</h4>
+                        </a>
+                        <h2>Sinopsis:</h2>
+                        <p class="p-back">Jamie Lee Curtis regresa a su icónico personaje Laurie Strode, quien llega a
+                            la confrontación final con Michael Myers, la figura enmascarada que la ha perseguido desde
+                            que escapó de la matanza que él cometió la noche de Halloween de hace cuatro décadas. Nueva
+                            entrega de "Halloween", secuela directa de la original de 1978. John Carpenter (creador de
+                            la original) es el productor ejecutivo.</p>
+                    </div>
+                </div>
+                <div class="box-film">
+                    <div class="front"><img src="../css/img/it2.jpg" alt="it2"></div>
+                    <div class="back">
+                        <h1 class="h1-back">* * * *</h1>
+                        <a href="">
+                            <h4>Play</h4>
+                        </a>
+                        <h2>Sinopsis:</h2>
+                        <p class="p-back">Han pasado casi 30 años desde que el "Club de los Perdedores", formado por
+                            Bill, Berverly, Richie, Ben, Eddie, Mike y Stanley, se enfrentaran al macabro y despiadado
+                            Pennywise (Bill Skarsgård). En cuanto tuvieron oportunidad, abandonaron el pueblo de Derry,
+                            en el estado de Maine, que tantos problemas les había ocasionado. Sin embargo, ahora, siendo
+                            adultos, parece que no pueden escapar de su pasado. Todos deberán enfrentarse de nuevo al
+                            temible payaso para descubrir si de verdad están preparados para superar sus traumas de la
+                            infancia.</p>
                     </div>
                 </div>
             </section>
             <h3 class="h3-main">Romanticas</h3>
             <section class="romanticas">
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/joker.jpg" alt="joker"></div>
+                    <div class="front"><img src="../css/img/un espacio entre nosotros.jpeg"
+                            alt="unEspacioEntreNosotros"></div>
                     <div class="back">
-                        <h1 class="h1-back">* * * * *</h1>
+                        <h1 class="h1-back">* *</h1>
+                        <a href=""><h4>Play</h4></a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Arthur Fleck (Phoenix) es un hombre ignorado por la sociedad,
-                            cuya motivación en la vida es hacer reír.
-                            Pero una serie de trágicos acontecimientos le llevarán a ver el mundo de otra forma.
-                            Película basada en Joker, el popular personaje de DC Comics y archivillano de Batman,
-                            pero que en este film toma un cariz más realista y oscuro.</p>
+                        <p class="p-back">Gardner, un muchacho de dieciséis años de edad que ha crecido y vive en Marte,
+                            se enamora de una chica de la Tierra, con la que se ha estado comunicando, por lo que
+                            comienza su viaje para poder verla. </p>
                     </div>
                 </div>
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/aladdin.jpg" alt="aladdin"></div>
+                    <div class="front"><img src="../css/img/grease.jpeg" alt="grease"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
+                        <a href=""><h4>Play</h4></a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Aladdin es un adorable pero desafortunado ladronzuelo enamorado de la hija del
-                            Sultán, la princesa Jasmine. Para intentar conquistarla, acepta el desafío de Jafar, que
-                            consiste en entrar a una cueva en mitad del desierto para dar con una lámpara mágica que le
-                            concederá todos sus deseos. Allí es donde Aladdín conocerá al Genio, dando inicio a una
-                            aventura como nunca antes había imaginado.</p>
+                        <p class="p-back">Verano de 1959. Sandy (Olivia Newton John) y Danny (John Travolta) han pasado
+                            un romántico y maravilloso verano juntos, pero, cuando las vacaciones se acaban, sus caminos
+                            se separan. Inesperadamente, vuelven a verse en el instituto Rydell, pero la actitud de
+                            Danny ya no es la misma: ya no es el chico encantador y atento que encandiló a Sandy; ahora
+                            es engreído e insensible. </p>
                     </div>
                 </div>
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/terminator.jpg" alt="termineitor 6"></div>
-                    <div class="back">
-                        <h1 class="h1-back">* * *</h1>
-                        <h2>Sinopsis:</h2>
-                        <p class="p-back">Sarah Connor une todas sus fuerzas con una mujer cyborg para proteger a una
-                            joven de un extremadamente poderoso y nuevo Terminator.</p>
-                    </div>
-                </div>
-                <div class="box-film">
-                    <div class="front"><img src="../css/img/edgame.jpeg" alt="edgame"></div>
+                    <div class="front"><img src="../css/img/your name.jpeg" alt="yourName"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
+                        <a href=""><h4>Play</h4></a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Tras los sucesos de Vengadores: Infinity War, los superhéroes que
-                            sobrevivieron a Thanos se reunen para poner en práctica un plan definitivo que podría acabar
-                            con el villano definitivamente. No saben si funcionará, pero es su única oportunidad de
-                            intentarlo. Cuarta entrega de la saga Vengadores.</p>
+                        <p class="p-back">Taki y Mitsuha descubren un día que durante el sueño sus cuerpos se
+                            intercambian, y comienzan a comunicarse por medio de notas. A medida que consiguen superar
+                            torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se
+                            convierte en algo más romántico.</p>
+                    </div>
+                </div>
+                <div class="box-film">
+                    <div class="front"><img src="../css/img/titanic.jpg" alt="titanic"></div>
+                    <div class="back">
+                        <h1 class="h1-back">* * * * *</h1>
+                        <a href=""><h4>Play</h4></a>
+                        <h2>Sinopsis:</h2>
+                        <p class="p-back">Jack (DiCaprio), un joven artista, gana en una partida de cartas un pasaje
+                            para viajar a América en el Titanic, el transatlántico más grande y seguro jamás construido.
+                            A bordo conoce a Rose (Kate Winslet), una joven de una buena familia venida a menos que va a
+                            contraer un matrimonio de conveniencia con Cal (Billy Zane), un millonario engreído a quien
+                            sólo interesa el prestigioso apellido de su prometida. Jack y Rose se enamoran, pero el
+                            prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el
+                            gigantesco y lujoso transatlántico se aproxima hacia un inmenso iceberg.</p>
                     </div>
                 </div>
             </section>
             <h3 class="h3-main">Belicas</h3>
             <section class="belicas">
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/joker.jpg" alt="joker"></div>
+                    <div class="front"><img src="../css/img/ultiomo mhicano.jpg" alt="UltimoMohicano"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
+                        <a href=""><h4>Play</h4></a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Arthur Fleck (Phoenix) es un hombre ignorado por la sociedad,
-                            cuya motivación en la vida es hacer reír.
-                            Pero una serie de trágicos acontecimientos le llevarán a ver el mundo de otra forma.
-                            Película basada en Joker, el popular personaje de DC Comics y archivillano de Batman,
-                            pero que en este film toma un cariz más realista y oscuro.</p>
+                        <p class="p-back">
+                            En 1757, a orillas del río Hudson, franceses e ingleses luchan por el dominio de la región.
+                            Mientras que los franceses cuentan con el apoyo de los nativos, los ingleses reclutan a los
+                            colonos blancos. Hawkeye -Ojo de halcón- (Daniel Day-Lewis) es un hombre blanco que fue
+                            adoptado por los indios mohicanos. Tras salvar de una emboscada de los hurones a Cora Munro
+                            (Madeleine Stowe) y a su hermana pequeña Alice (Jodhi May), hijas de un oficial británico,
+                            las acompaña hasta el fuerte inglés William Henry, que está sufriendo el asedio de los
+                            franceses y los hurones.</p>
                     </div>
                 </div>
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/aladdin.jpg" alt="aladdin"></div>
+                    <div class="front"><img src="../css/img/Pearl_Harbo.jpg" alt="PearlHarbo"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
+                        <a href=""><h4>Play</h4></a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Aladdin es un adorable pero desafortunado ladronzuelo enamorado de la hija del
-                            Sultán, la princesa Jasmine. Para intentar conquistarla, acepta el desafío de Jafar, que
-                            consiste en entrar a una cueva en mitad del desierto para dar con una lámpara mágica que le
-                            concederá todos sus deseos. Allí es donde Aladdín conocerá al Genio, dando inicio a una
-                            aventura como nunca antes había imaginado.</p>
+                        <p class="p-back">Año 1941, en plena Segunda Guerra Mundial en Europa. Rafe McCawley (Affleck) y
+                            Danny Walker (Hartnett) crecieron juntos en una zona rural estadounidense y su larga amistad
+                            se mantiene cuando ambos ingresan como pilotos en las fuerzas aéreas. Rafe encontró en
+                            Evelyn Johnson (Beckinsale), una valiente enfermera, al amor de su vida, pero pronto
+                            tuvieron que separarse, al ser llamado Rafe para servir en la Fuerza Aérea Británica (RAF)
+                            contra los alemanes. Mientras tanto, Danny y Evelyn son enviados a la base aérea de Pearl
+                            Harbor en Hawai.</p>
                     </div>
                 </div>
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/terminator.jpg" alt="termineitor 6"></div>
+                    <div class="front"><img src="../css/img/hasta ultimo hombre.jpeg" alt="hastaElUltimoHombre"></div>
                     <div class="back">
-                        <h1 class="h1-back">* * *</h1>
+                        <h1 class="h1-back">* * * *</h1>
+                        <a href=""><h4>Play</h4></a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Sarah Connor une todas sus fuerzas con una mujer cyborg para proteger a una
-                            joven de un extremadamente poderoso y nuevo Terminator.</p>
+                        <p class="p-back">Narra la historia de Desmond Doss, un joven médico militar que participó en la
+                            sangrienta batalla de Okinawa, en el Pacífico durante la II Guerra Mundial, y se convirtió
+                            en el primer objetor de conciencia en la historia estadounidense en recibir la Medalla de
+                            Honor del Congreso. Doss quería servir a su país, pero desde pequeño se había hecho una
+                            promesa a sí mismo: no coger jamás ningún arma.</p>
                     </div>
                 </div>
                 <div class="box-film">
-                    <div class="front"><img src="../css/img/edgame.jpeg" alt="edgame"></div>
+                    <div class="front"><img src="../css/img/braveheart.jpg" alt="braveheart"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
+                        <a href=""><h4>Play</h4></a>
                         <h2>Sinopsis:</h2>
-                        <p class="p-back">Tras los sucesos de Vengadores: Infinity War, los superhéroes que
-                            sobrevivieron a Thanos se reunen para poner en práctica un plan definitivo que podría acabar
-                            con el villano definitivamente. No saben si funcionará, pero es su única oportunidad de
-                            intentarlo. Cuarta entrega de la saga Vengadores.</p>
+                        <p class="p-back">En el siglo XIV, los escoceses viven oprimidos por los gravosos tributos y las
+                            injustas leyes impuestas por los ingleses. William Wallace es un joven escocés que regresa a
+                            su tierra despues de muchos años de ausencia. Siendo un niño, toda su familia fue asesinada
+                            por los ingleses, razón por la cual se fue a vivir lejos con un tío suyo.</p>
                     </div>
                 </div>
             </section>
         </main>
         <aside class="aside-right">
             <div class="idiomas">
-                <div>Idiomas</div>
-                <a href="" title="Ver peli en español"></a>
-                <a href="" title="Ver peli en ingles"></a>
+                <h1>Idiomas:</h1>
+                <a href="" title="Ver peli en español"><img src="../css/img/español.png" alt="español"></a>
+                <a href="" title="Ver peli en ingles"><img src="../css/img/ingles.png" alt="ingles"></a>
             </div>
-            <div>
-                <h2>Recomendaciones:</h2>
+            <div class="recomendacion">
+                <h1>Recomendacion:</h1>
                 <div></div>
-                <div></div>
+                <a href="../css/video/el-irlandes-trailer-final.mp4">Ver Trailer</a>
             </div>
         </aside>
         <footer class="footer">

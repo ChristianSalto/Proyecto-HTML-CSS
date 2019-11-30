@@ -1,46 +1,58 @@
   
+  
+ @font-face {
+    font-family: 'Fontdiner Swanky';
+    src: url(../css/Font/FontdinerSwanky-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../css/fonts/icomoon.eot') format('embedded-opentype'),
+  url('../css/fonts/icomoon.ttf') format('truetype'),
+  url('../css/fonts/icomoon.woff') format('woff'),
+  url('../css/fonts/icomoon.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+  
   .nav{
     display: grid;
     max-width: 100%;
     grid-template-columns: 1fr 3fr;
-    border: 4px solid white; 
+    /*border: 4px solid white; */
     background: black;
   }
 
   .logo{
     grid-column: 1/1;
-    border: 1px solid white;
+   /* border: 1px solid white;*/
     z-index: 999;
   }
 
-  @font-face {
-    font-family: 'Fontdiner Swanky';
-    src: url(../css/Font/FontdinerSwanky-Regular.ttf);
-}
-
   .h1-logo{
       font-family: Fontdiner Swanky;
-      margin-top: 40px;
-      font-size: 40px;
-      color:rgb(1, 228, 39);
+      margin-top: 30px;
+      font-size: 30px;
+      margin-left: 10px;
+      color:rgb(247, 191, 38);
       z-index: 999;
   }
 
 .div-nav{
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    border: 5px solid white;
-    align-items: flex-end;
-    align-items: flex-start;
+    grid-template-columns: 50% 50%;
+   /* border: 5px solid white;*/
     align-content: center;
     z-index: 999;
 }
 
 .ul-nav{
-    grid-column: 1/3;
+    grid-column: 1/2;
     height: 80px;
     text-align: center;
-    border:1px solid white;
+   /* border:1px solid white;*/
 }
 
 .li-nav{
@@ -51,28 +63,53 @@
 
 .a-nav{
     color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 2px 4px 4px 4px;
+}
+
+.li-nav > a:hover{
+  background: rgb(1, 224, 253);
+  color: black;
 }
 
 .div-search{
-    grid-column: 3/5;
-    border:1px solid white;
-    margin-top:15px;
-    text-align: center;
-    height: 80px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    /*border:1px solid white;*/
 }
 
 .search{
-    text-align: center;
-    margin-top: 15px;
-    height: 35px;
-    width: 200px;
-    border-radius: 10px;
+    width: 50%;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    border: 3px solid #00B4CC;
+    color: #9DBFAF;
 }
 
 .button-search{
-    width: 60px;
-    height: 30px;
-    border-radius: 10px;
-    margin-left: 5px;
+  font-family: icomoon;
+  width: 40px;
+  height: 36px;
+  border: 1px solid #00B4CC;
+  text-align: center;
+  margin-top: 30px;
+  color: rgb(9, 70, 67);
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
 }
-  
+
+.button-search:hover{
+  box-shadow: 0px 0px 10px rgb(3, 170, 236);
+}
+
+.icon-search:before {
+  content: "\e986";
+}
