@@ -1,16 +1,18 @@
 section {
-    display  : flex;
-    /* border: 4px solid black;*/
+    display        : flex;
+   /* border         : 4px solid black;*/
     justify-content: center;
-    width    : flex;
-    height   : flex;
+    width          : flex;
+    height         : flex;
+    flex-direction : row;
+    flex-flow      : wrap;
 }
 
 section>div {
-    margin   : 10px;
-/*  border: 1px solid white;*/
-    width    : 150px;
-    height   : 200px;
+    margin    : 10px;
+    /*  border: 1px solid white;*/
+    width     : 150px;
+    height    : 200px;
 }
 
 .h1-back {

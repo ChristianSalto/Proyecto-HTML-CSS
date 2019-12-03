@@ -34,6 +34,10 @@
     margin-left        : 50px
 }
 
+.recomendacion>h3 {
+    opacity: 0;
+}
+
 .recomendacion>a {
     color: white;
 }
