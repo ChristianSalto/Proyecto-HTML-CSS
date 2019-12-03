@@ -1,50 +1,84 @@
+@font-face {
+    font-family: 'Fontdiner Swanky';
+    src        : url(../css/Font/FontdinerSwanky-Regular.ttf);
+}
 
-.div-a-L{
+.div-a-L {
     /*border: 1px solid rgb(250, 239, 239);*/
-    height: 400px;
+    height  : 400px;
 }
 
-.pelis-año{
-    text-align: center;
-    height: flex;
-    font-size: 25px;
-   /* border: 1px solid rgb(224, 207, 207);*/
+.h2-div-L {
+    font-family: 'Solway', serif;
+    text-align : center;
+    font-size  : 35px;
 }
 
-.h2-div-L{
-    text-align: center;
-    font-size: 35px;
+.pelis-año {
+    font-family: 'Solway', serif;
+    text-align : center;
+    height     : flex;
+    font-size  : 25px;
+    /* border  : 1px solid rgb(224, 207, 207);*/
 }
 
-.select-L{
-    -webkit-appearance: none;
-    -moz-appearance:none; 
-    -webkit-border-radius:0;
-    -moz-border-radius:0;
-    appearance:none;
-    border: none;
-    padding: 10px;
-    margin: 0;
-    width: 50%;;
-    border-radius: 0;
-    font-size: 20px;
-    box-shadow: 2px 2px 10px teal;
-    background: linear-gradient(70deg, black, white);
+.select-L {
+    font-family          : 'Solway', serif;
+    -webkit-appearance   : none;
+    -moz-appearance      : none;
+    -webkit-border-radius: 0;
+    -moz-border-radius   : 0;
+    appearance           : none;
+    border               : none;
+    padding              : 10px;
+    margin               : 0;
+    width                : 50%;
+    border-radius        : 0;
+    font-size            : 20px;
+    background           : linear-gradient(70deg, black, white);
 }
 
-.categorias{
-    font-size: 20px;
-    color: teal;
-    margin-top: 60px;
+.select-L:hover {
+    box-shadow: 0px 0px 10px teal;
 }
 
-.a{
-    font-size: 30px;
-    margin: 10px;
+.categorias {
+    font-family: 'Solway', serif;
+    font-size  : 20px;
+    color      : rgb(255, 255, 255);
+    margin-top : 100px;
+}
+
+.a {
+    font-size      : 30px;
+    margin         : 10px;
     text-decoration: none;
-    color:teal;
+    color          : teal;
 }
 
-.a:hover{
+.a:hover {
     text-shadow: 2px 2px 2px #aaa;
+}
+
+.p-series {
+    font-family  : Fontdiner Swanky;
+    color        : rgb(247, 191, 38);
+    font-size    : 25px;
+    margin-bottom: 80px;
+    margin-top   : 100px;
+}
+
+.ul-series>li {
+    color: darkgray;
+}
+
+.ul-series>li a {
+    font-family    : 'Solway', serif;
+    font-size      : 20px;
+    text-decoration: none;
+    color          : darkgray;
+}
+
+.ul-series>li a:hover {
+    color: rgb(247, 191, 38);
 }

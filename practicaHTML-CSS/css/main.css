@@ -1,27 +1,58 @@
-section{
-    display: flex;
-   /* border:4px solid black;*/
-    width: flex;
-    height: flex;
+section {
+    display  : flex;
+    /* border: 4px solid black;*/
+    justify-content: center;
+    width    : flex;
+    height   : flex;
 }
 
-section > div{
-    margin: 10px;
-   /* border: 1px solid white;*/
-    width: 150px;
-    height: 200px;
+section>div {
+    margin   : 10px;
+/*  border: 1px solid white;*/
+    width    : 150px;
+    height   : 200px;
 }
-.h1-back{
+
+.h1-back {
     color: rgb(219, 205, 0);
 }
 
-.h3-main{
-    font-size: 20px;
-    text-align: center;
-    margin-top: 50px;
+.h3-main {
+    font-family  : 'Solway', serif;
+    font-size    : 25px;
+    text-align   : center;
+    margin-top   : 50px;
+    margin-bottom: 50px;
 }
 
-a{
-    color: blue;
+a {
+    color          : blue;
     text-decoration: none;
+}
+
+.page {
+    display        : flex;
+    justify-content: center;
+    width          : flex;
+    height         : flex;
+}
+
+.page>div {
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    border         : 1px solid black;
+    width          : 30px;
+    height         : 30px;
+    margin-top     : 100px;
+    margin-bottom  : 100px;
+}
+
+.page>div a {
+    padding: 10px;
+    color  : white;
+}
+
+.page>div:hover {
+    background: rgb(247, 191, 38);
 }

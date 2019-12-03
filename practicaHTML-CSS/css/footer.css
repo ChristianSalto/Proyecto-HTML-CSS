@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'facebook';
+    src        : url('../css/fonts/redSocial/fonts/facebook.eot') format('embedded-opentype'),
+        url('../css/fonts/redSocial/fonts/facebook.ttf') format('truetype'),
+        url('../css/fonts/redSocial/fonts/facebook.woff') format('woff'),
+        url('../css/fonts/redSocial/fonts/facebook.svg') format('svg');
+    font-weight : normal;
+    font-style  : normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'twitter';
+    src        : url('../css/fonts/redSocial/fonts/twitter.eot') format('embedded-opentype'),
+        url('../css/fonts/redSocial/fonts/twitter.ttf') format('truetype'),
+        url('../css/fonts/redSocial/fonts/twitter.woff') format('woff'),
+        url('../css/fonts/redSocial/fonts/twitter.svg') format('svg');
+    font-weight : normal;
+    font-style  : normal;
+    font-display: block;
+    ;
+}
+
+@font-face {
+    font-family: 'instagram';
+    src        : url('../css/fonts/redSocial/fonts/instagram.eot') format('embedded-opentype'),
+        url('../css/fonts/redSocial/fonts/instagram.ttf') format('truetype'),
+        url('../css/fonts/redSocial/fonts/instagram.woff') format('woff'),
+        url('../css/fonts/redSocial/fonts/instagram.svg') format('svg');
+    font-weight : normal;
+    font-style  : normal;
+    font-display: block;
+}
+
+.red-social {
+    display       : flex;
+    flex-direction: row-reverse;
+    align-items   : center;
+    text-align    : center;
+    margin-right  : 50px;
+    margin-top    : 50px;
+}
+
+.red-social>div {
+    width : 40px;
+    height: 40px;
+    margin: 4px;
+}
+
+.red-social>div a {
+    font-size: 30px;
+}
+
+.twitter {
+    font-family: twitter;
+}
+
+.facebook {
+    font-family: facebook;
+}
+
+.instagram {
+    font-family: instagram;
+}
+
+.icon-twitter:before {
+    content: "\ea96";
+}
+
+.icon-facebook2:before {
+    content: "\ea91";
+}
+
+.icon-instagram:before {
+    content: "\ea92";
+}
+
+.icon-twitter {
+    color: #00B4CC;
+}
+
+.icon-instagram {
+    border-radius: 20px 20px 20px 20px;
+    color        : purple;
+}
+
+.icon-facebook2:hover {
+    box-shadow: 0px 0px 10px blue;
+}
+
+.icon-twitter:hover {
+    border       : 1px solid #00B4CC;
+    border-radius: 20px 20px 20px 20px;
+    box-shadow   : 0px 0px 10px #00B4CC;
+}
+
+.icon-instagram:hover {
+    box-shadow: 0px 0px 10px purple;
+}
+
+.condiciones {
+    display        : flex;
+    justify-content: center;
+}
+
+.condiciones>a {
+    font-family: 'Solway', serif;
+    size  : 20px;
+    margin: 5px;
+}
+
+.condiciones>a:hover {
+    text-decoration: underline;
+}
+
+.container-footer>h4 {
+    font-family: 'Solway', serif;
+    text-align: center;
+    color     : rgb(247, 191, 38);
+    margin-bottom: 50px;
+}

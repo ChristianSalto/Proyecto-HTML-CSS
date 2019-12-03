@@ -97,6 +97,7 @@ body{
 }
 
 #h2-div3{
+    font-family: 'Solway', serif;
     font-size: 50px;
     margin-left: 50px; 
 }
@@ -114,7 +115,8 @@ ul{
 
 label{
     /*color:rgb(0, 0, 0);*/
-    font-size: 20px;
+    font-family: 'Solway', serif;
+    font-size: 15px;
 }
 
 #gmail{
@@ -138,6 +140,7 @@ label{
 }
 
 #submit{  
+    font-family: 'Solway', serif;
     margin: 30px;
     margin-left: 30px;
     border-radius: 10px;
@@ -147,6 +150,7 @@ label{
 }
 
 nav a{
+    font-family: 'Solway', serif;
     font-size:20px;
     color: rgb(82, 4, 75);
 }

@@ -1,28 +1,62 @@
-.aside-right > div{  
-    text-align: center;
-    height: flex;
-    width: flex;
+@font-face {
+    font-family: 'Fontdiner Swanky';
+    src        : url(../css/Font/FontdinerSwanky-Regular.ttf);
 }
 
-.idiomas > a{
+.aside-right>div {
+    text-align: center;
+    height    : flex;
+    width     : flex;
+}
+
+.idiomas>a {
     margin: 10px;
 }
 
-.idiomas > h1{
-    font-size: 30px;
-    margin: 50px;
+.idiomas>h1 {
+    font-family: 'Solway', serif;
+    font-size  : 30px;
+    margin     : 50px;
 }
 
-.recomendacion > h1{
-    margin-top: 100px;
-    font-size: 30px;
+.recomendacion>h1 {
+    font-family: 'Solway', serif;
+    margin-top : 100px;
+    font-size  : 30px;
 }
 
-.recomendacion > div {
-    background-image: url(../css/img/Irlandes.jpeg);
-    border: 1px solid rgb(218, 208, 208);
-    height: 400px;
-    width: 250px;
-    margin-top: 150px;
-    margin-left: 50px
+.recomendacion>div {
+    background-image   : url(../css/img/Irlandes.jpeg);
+    /* border          : 1px solid rgb(218, 208, 208);*/
+    height             : 400px;
+    width              : 250px;
+    margin-top         : 100px;
+    margin-left        : 50px
+}
+
+.recomendacion>a {
+    color: white;
+}
+
+.p-documentales {
+    font-family  : Fontdiner Swanky;
+    color        : rgb(247, 191, 38);
+    font-size    : 25px;
+    margin-bottom: 80px;
+    margin-top   : 100px;
+}
+
+.ul-documentales>li {
+    color: darkgray;
+}
+
+.ul-documentales>li a {
+    font-family    : 'Solway', serif;
+    font-size      : 20px;
+    text-decoration: none;
+    color          : darkgray;
+}
+
+.ul-documentales>li a:hover {
+    color: rgb(247, 191, 38);
 }
