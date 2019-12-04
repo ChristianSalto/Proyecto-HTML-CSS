@@ -105,8 +105,8 @@
 
 .condiciones>a {
     font-family: 'Solway', serif;
-    size  : 20px;
-    margin: 5px;
+    size       : 20px;
+    margin     : 5px;
 }
 
 .condiciones>a:hover {
@@ -114,8 +114,18 @@
 }
 
 .container-footer>h4 {
-    font-family: 'Solway', serif;
-    text-align: center;
-    color     : rgb(247, 191, 38);
+    font-family  : 'Solway', serif;
+    text-align   : center;
+    color        : rgb(247, 191, 38);
     margin-bottom: 50px;
+}
+
+.cerrar-sesion {
+    background: linear-gradient(70deg, black, white);
+    border    : gray;
+    font-size : 15px;
+}
+
+.cerrar-sesion:hover {
+    box-shadow: 0px 0px 50px rgb(81, 116, 116);
 }
