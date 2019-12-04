@@ -1,5 +1,5 @@
 .div-anim{
-    background-image: url(../css/img/imagenFinal.png);
+    background-image: url(../img/imagenFinal.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -25,7 +25,7 @@
     grid-column: 1/1;
     grid-row: 1/1;
     overflow: hidden;
-    background-image: url(../css/img/aladdin.jpg);
+    background-image: url(../img/aladdin.jpg);
     transform: rotateY(51.40deg) translateZ(360px);
 }
 
@@ -33,7 +33,7 @@
     grid-column: 1/1;
     grid-row: 1/1;
     overflow: hidden;
-    background-image: url(../css/img/adtral.jpg);
+    background-image: url(../img/adtral.jpg);
     transform: rotateY(102.80deg) translateZ(360px);
 }
 
@@ -41,7 +41,7 @@
     grid-column: 1/1;
     grid-row: 1/1;
     overflow: hidden;
-    background-image: url(../css/img/joker.jpg);
+    background-image: url(../img/joker.jpg);
     transform: rotateY(154.20deg) translateZ(360px);
 }
 
@@ -49,7 +49,7 @@
     grid-column: 1/1;
     grid-row: 1/1;
     overflow: hidden;
-    background-image: url(../css/img/terminator.jpg);
+    background-image: url(../img/terminator.jpg);
     transform: rotateY(205.60deg) translateZ(360px);
 }
 
@@ -57,7 +57,7 @@
     grid-column: 1/1;
     grid-row: 1/1;
     overflow: hidden;
-    background-image: url(../css/img/star\ wars.jpeg);
+    background-image: url(../img/star\ wars.jpeg);
     transform: rotateY(256deg) translateZ(360px);
 }
 
@@ -65,7 +65,7 @@
     grid-column: 1/1;
     grid-row: 1/1;
     overflow: hidden;
-    background-image: url(../css/img/edgame.jpeg);
+    background-image: url(../img/edgame.jpeg);
     transform: rotateY(307.40deg) translateZ(360px);
 }
 
@@ -73,7 +73,7 @@
     grid-column: 1/1;
     grid-row: 1/1;
     overflow: hidden;
-    background-image: url(../css/img/adios.jpeg);
+    background-image: url(../img/adios.jpeg);
     transform: rotateY(358.80deg) translateZ(360px);
 }
 

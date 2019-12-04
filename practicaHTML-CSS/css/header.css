@@ -1,15 +1,15 @@
   @font-face {
     font-family: 'Fontdiner Swanky';
-    src        : url(../css/Font/FontdinerSwanky-Regular.ttf);
+    src        : url(../Font/FontdinerSwanky-Regular.ttf);
   }
 
 
   @font-face {
     font-family: 'icomoon';
     src        : url('../css/fonts/icomoon.eot') format('embedded-opentype'),
-      url('../css/fonts/icomoon.ttf') format('truetype'),
-      url('../css/fonts/icomoon.woff') format('woff'),
-      url('../css/fonts/icomoon.svg') format('svg');
+      url('../fonts/icomoon.ttf') format('truetype'),
+      url('../fonts/icomoon.woff') format('woff'),
+      url('../fonts/icomoon.svg') format('svg');
     font-weight : normal;
     font-style  : normal;
     font-display: block;
@@ -58,7 +58,7 @@
     font-family: 'Solway', serif;
     display    : inline-block;
     font-size  : 20px;
-    margin     : 20px 15px 0px 0px;
+    margin     : 20px 35px 0px 0px;
   }
 
   .a-nav {

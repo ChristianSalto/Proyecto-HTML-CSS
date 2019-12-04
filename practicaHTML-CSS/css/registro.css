@@ -1,157 +1,157 @@
-:root{
-    --navbar-size: 50px;
+:root {
+    --navbar-size      : 50px;
     background-position: center;
-    background-size: cover;
-    /*background-image: url(/css/img/fotoEditadaMain.jpg);*/
-    background: -webkit-gradient(linear, left top, right top, from(rgb(0, 0, 0)), color-stop(rgb(19, 41, 165)), to(rgb(27, 229, 236)));
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(19, 41, 165), rgb(27, 229, 236));
-      /*background:rgb(23, 62, 99);*/
+    background-size    : cover;
+    /*background-image : url(/css/img/fotoEditadaMain.jpg);*/
+    background         : -webkit-gradient(linear, left top, right top, from(rgb(0, 0, 0)), color-stop(rgb(19, 41, 165)), to(rgb(27, 229, 236)));
+    background         : linear-gradient(to right, rgb(0, 0, 0), rgb(19, 41, 165), rgb(27, 229, 236));
+    /*background       :rgb(23, 62, 99);*/
 }
 
 @media only screen and (min-width: 1100px) {
-body{
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "head head"
-                         "menu main"
-                         "none none";                   
-    grid-gap: 15px;
- }
+    body {
+        display              : grid;
+        grid-template-columns: 1fr;
+        grid-template-areas  : "head head"
+            "menu main"
+            "none none";
+        grid-gap: 15px;
+    }
 }
 
-@media only screen and (max-width: 1100px){
-  
-    #divh1{
+@media only screen and (max-width: 1100px) {
+
+    #divh1 {
         display: grid;
-        width: 105%;
+        width  : 105%;
     }
 
-    #divh2{
+    #divh2 {
         margin-left: 10%;
-        margin-top: 35px;
+        margin-top : 35px;
     }
-    #divh3{
+
+    #divh3 {
         margin: 10%;
     }
 
-    label{
+    label {
         color: white;
     }
 }
 
 @font-face {
     font-family: 'Fontdiner Swanky';
-    src: url(../css/Font/FontdinerSwanky-Regular.ttf);
+    src        : url(../Font/FontdinerSwanky-Regular.ttf);
 }
 
-#h1-div{
+#h1-div {
     font-family: 'Fontdiner Swanky';
-    font-size: 40px;
-    color: rgb(190, 0, 3);
+    font-size  : 40px;
+    color      : rgb(190, 0, 3);
     margin-left: 30px;
 }
 
-.div-h1{
-    grid-area: head;
-   /* border: 1px solid white;*/  
-    margin:-8px;
-    width: 101%;
-    height: 130px;
-    background-image: url(../css/img/jtron.jpg);
+.div-h1 {
+    grid-area       : head;
+ /* border       : 1px solid white;*/
+    margin          : -8px;
+    width           : 101%;
+    height          : 130px;
+    background-image: url(../img/jtron.jpg);
 }
 
-.div-h2{
+.div-h2 {
     background-color: rgb(34, 27, 27);
-   /* border: 1px solid white;*/
-    height: 550px;
-    width: 400px;
-    margin-left: 25%;
-    margin-top: 20px;
-    border-radius: 20px 20px 20px 20px;
+    /* border       : 1px solid white;*/
+    height          : 550px;
+    width           : 400px;
+    margin-left     : 25%;
+    margin-top      : 20px;
+    border-radius   : 20px 20px 20px 20px;
 }
 
-.div-h2-hijo{ 
-    background-image: url(../css/img/vikingos-serie-1550764019.jpg);
-   /* border: 1px solid white;*/
-    width: 100%;
-    height: 200px;
-    border-radius: 20px 20px 0px 0px;
+.div-h2-hijo {
+    background-image: url(../img/vikingos-serie-1550764019.jpg);
+    /* border       : 1px solid white;*/
+    width           : 100%;
+    height          : 200px;
+    border-radius   : 20px 20px 0px 0px;
 }
 
-.div-father-input{
-    /*display: inline-block;*/
-    grid-area: main;
-   /* border: 10px solid white;*/
-    height: 550px;
-    width: 400px;
-    text-align: center;
+.div-father-input {
+    /*display   : inline-block;*/
+    grid-area   : main;
+    /* border   : 10px solid white;*/
+    height      : 550px;
+    width       : 400px;
+    text-align  : center;
     margin-right: 500px;
-    margin-left: 20%;
+    margin-left : 20%;
 }
 
-.h2-div{
-    color: white;
-    margin: 3%;
+.h2-div {
+    color      : white;
+    margin     : 3%;
     font-family: 'Fontdiner Swanky';
-    font-size: 23px;
+    font-size  : 23px;
 }
 
-#h2-div3{
+#h2-div3 {
     font-family: 'Solway', serif;
-    font-size: 50px;
-    margin-left: 50px; 
+    font-size  : 50px;
+    margin-left: 50px;
 }
 
-ul{
+ul {
     list-style-image: url("http://icons.iconarchive.com/icons/hopstarter/sleek-xp-basic/24/Ok-icon.png");
-    color: rgb(5, 176, 255);
+    color           : rgb(5, 176, 255);
 }
 
-.div-input{
+.div-input {
     display: block;
-  /*  border: 1px solid white;*/
-    height: 100px;
+  /*  border : 1px solid white;*/
+    height : 100px;
 }
 
-label{
-    /*color:rgb(0, 0, 0);*/
+label {
+    /*color    :rgb(0, 0, 0);*/
     font-family: 'Solway', serif;
-    font-size: 15px;
+    font-size  : 15px;
 }
 
-#gmail{
-    margin-right: -10px;
-    margin-top:30px;
+#gmail {
+    margin-right : -10px;
+    margin-top   : 30px;
     border-radius: 10px;
-    font-size: 20px;
+    font-size    : 20px;
 }
 
-#password{
-    margin-top:30px;
+#password {
+    margin-top   : 30px;
     border-radius: 10px;
-    font-size: 20px;
-    margin-right: 30px;
+    font-size    : 20px;
+    margin-right : 30px;
 }
 
-#box{
-    width: 17px;
+#box {
+    width : 17px;
     height: 17px;
     border: 5px solid white;
 }
 
-#submit{  
-    font-family: 'Solway', serif;
-    margin: 30px;
-    margin-left: 30px;
+#submit {
+    font-family  : 'Solway', serif;
+    margin       : 30px;
+    margin-left  : 30px;
     border-radius: 10px;
-    font-size: 25px;
-    color: white;
-    background: darkblue;
+    font-size    : 25px;
+    color        : white;
+    background   : darkblue;
 }
 
-nav a{
+nav a {
     font-family: 'Solway', serif;
-    font-size:20px;
-    color: rgb(82, 4, 75);
+    font-size  : 20px;
+    color      : rgb(82, 4, 75);
 }
-

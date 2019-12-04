@@ -1,17 +1,31 @@
-/*Efectos del header:*/
+/*Efecto del logo:*/
 
+@media all and (max-width: 900px) {
+    .logo::after {
+        content: "";
+        position: absolute;
+        background-image: url(../img/diamante3.jpg);
+        margin-top: -77px;
+        height : 108px;
+        width  : 130px;
+    }
 
+    .h1-logo{
+        font-size: 20px;
+        opacity: 0;
+    }
+}
 
 /*Efecto you are welcome:*/
 
 @font-face {
     font-family: 'Fontdiner Swanky';
-    src        : url(../css/Font/FontdinerSwanky-Regular.ttf);
+    src        : url(../Font/FontdinerSwanky-Regular.ttf);
 }
 
 @font-face {
     font-family: blacknight;
-    src        : url(../css/Font/BlackKnightFLF.ttf);
+    src        : url(../Font/BlackKnightFLF.ttf);
 }
 
 .h1-welcome {
