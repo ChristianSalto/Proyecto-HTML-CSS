@@ -1,7 +1,5 @@
 .container {
-  /*color              : blanchedalmond;*/
   background           : linear-gradient(70deg, black, white);
-  /*border             : 1px solid black;*/
   margin               : 0 auto;
   max-width            : 100%;
   min-height           : 100vh;
@@ -17,26 +15,22 @@
 
 .header {
   grid-area: header;
-  /* border: 3px solid black;*/
 }
 
 
 .div-anim {
   grid-area: animacion;
-  /*border : 3px solid black;*/
 }
 
 .aside-left {
   grid-area : aside-left;
   background: linear-gradient(70deg, black, rgb(75, 75, 75));
-  /*border  : 5px solid black;*/
 }
 
 .efecto {
   grid-area : efecto;
   text-align: center;
   height    : 150px;
-  /*border  : 10px solid rgb(8, 206, 8);*/
 }
 
 .main {
@@ -44,13 +38,11 @@
 }
 
 .aside-right {
-  grid-area         : aside-right;
-  background        : linear-gradient(70deg, black, rgb(75, 75, 75));
-  /*background-color: rgb(139, 0, 0);*/
+  grid-area : aside-right;
+  background: linear-gradient(70deg, black, rgb(75, 75, 75));
 }
 
 .footer {
   grid-area : footer;
   background: linear-gradient(70deg, black, white);
-  ;
 }

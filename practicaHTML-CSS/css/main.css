@@ -1,6 +1,5 @@
 section {
     display        : flex;
-   /* border         : 4px solid black;*/
     justify-content: center;
     width          : flex;
     height         : flex;
@@ -9,10 +8,9 @@ section {
 }
 
 section>div {
-    margin    : 10px;
-    /*  border: 1px solid white;*/
-    width     : 150px;
-    height    : 200px;
+    margin: 10px;
+    width : 150px;
+    height: 200px;
 }
 
 .h1-back {

@@ -19,13 +19,11 @@
     display              : grid;
     max-width            : 100%;
     grid-template-columns: 1fr 3fr;
-    /*border             : 4px solid white; */
     background           : black;
   }
 
   .logo {
     grid-column: 1/1;
-    /* border  : 1px solid white;*/
     z-index    : 999;
   }
 
@@ -42,7 +40,6 @@
   .div-nav {
     display              : grid;
     grid-template-columns: 50% 50%;
-    /* border            : 5px solid white;*/
     align-content        : center;
     z-index              : 999;
   }
@@ -51,7 +48,6 @@
     grid-column: 1/2;
     height     : 80px;
     text-align : center;
-    /* border  :1px solid white;*/
   }
 
   .li-nav {
@@ -77,7 +73,6 @@
     width   : 100%;
     position: relative;
     display : flex;
-    /*border:1px solid white;*/
   }
 
   .search {

@@ -3,31 +3,27 @@
 @media all and (max-width: 900px) {
 
     .header {
-        /* border: 3px solid rgb(252, 1, 1);*/
-        height   : 110px;
+        height: 110px;
     }
 
     .nav {
-        /*border             : 4px solid white; */
-        background           : black;
-    } 
+        background: black;
+    }
 
     .logo {
-        height         : 300px;
-        width          : 200px;
-        /*  border     : 4px solid white;*/
+        height: 300px;
+        width : 200px;
     }
 
     .ul-nav {
-        opacity            : 0;
-        margin-left        : -216px;
-        margin-top         : 106px;
-        width              : 200px;
-        height             : 200px;
-        padding            : 10px;
-        background-color   : black;
-        /* border          : 1px solid white;*/
-        transform          : translateY(-100%);
+        opacity         : 0;
+        margin-left     : -216px;
+        margin-top      : 106px;
+        width           : 200px;
+        height          : 200px;
+        padding         : 10px;
+        background-color: black;
+        transform       : translateY(-100%);
     }
 
     .ul-nav:hover {
@@ -37,16 +33,14 @@
     }
 
     .li-nav {
-        float        : left;
-        font-family  : 'Solway', serif;
-        font-size    : 20px;
-        margin       : 20px;
-        /* border    : 1px solid white;*/
+        float      : left;
+        font-family: 'Solway', serif;
+        font-size  : 20px;
+        margin     : 20px;
     }
 
 
     .div-search {
-        /* border  : 1px solid white;*/
         height     : 100px;
         margin-left: -50px;
         padding    : 0px;
@@ -66,14 +60,14 @@
 
 }
 
-@media all and (max-width: 850px){
+@media all and (max-width: 850px) {
     .ul-nav {
-        margin-left        : -200px;
+        margin-left: -200px;
     }
 }
 
 
-@media all and (min-width: 900px) and (max-width: 1300px){
+@media all and (min-width: 900px) and (max-width: 1300px) {
     .a-nav {
         padding: 0px;
     }

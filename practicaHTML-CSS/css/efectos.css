@@ -2,17 +2,17 @@
 
 @media all and (max-width: 900px) {
     .logo::after {
-        content: "";
-        position: absolute;
+        content         : "";
+        position        : absolute;
         background-image: url(../img/diamante3.jpg);
-        margin-top: -77px;
-        height : 108px;
-        width  : 130px;
+        margin-top      : -77px;
+        height          : 108px;
+        width           : 130px;
     }
 
-    .h1-logo{
+    .h1-logo {
         font-size: 20px;
-        opacity: 0;
+        opacity  : 0;
     }
 }
 

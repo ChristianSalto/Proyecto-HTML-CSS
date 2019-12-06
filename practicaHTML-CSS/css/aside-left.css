@@ -4,8 +4,7 @@
 }
 
 .div-a-L {
-    /*border: 1px solid rgb(250, 239, 239);*/
-    height  : 400px;
+    height: 400px;
 }
 
 .h2-div-L {
@@ -19,7 +18,6 @@
     text-align : center;
     height     : flex;
     font-size  : 25px;
-    /* border  : 1px solid rgb(224, 207, 207);*/
 }
 
 .select-L {

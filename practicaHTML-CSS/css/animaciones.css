@@ -1,86 +1,88 @@
-.div-anim{
-    background-image: url(../img/imagenFinal.png);
+.div-anim {
+    background-image       : url(../img/imagenFinal.png);
     -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    height: 400px;
-    width: 100%;
-    text-align: center;
+    -moz-background-size   : cover;
+    -o-background-size     : cover;
+    background-size        : cover;
+    height                 : 400px;
+    width                  : 100%;
+    text-align             : center;
 }
 
-.animacion{
-    display: grid;
-    margin-top: 50px;
-    margin-left: 800px;
-    width: 0px;
-    height: 200px;
+.animacion {
+    display              : grid;
+    margin-top           : 50px;
+    margin-left          : 800px;
+    width                : 0px;
+    height               : 200px;
     grid-template-columns: 150px;
-    grid-template-rows: 200px;
-    animation: rotar 20s infinite linear;
-    transform-style: preserve-3d;
+    grid-template-rows   : 200px;
+    animation            : rotar 20s infinite linear;
+    transform-style      : preserve-3d;
 }
 
-.anim-1{
-    grid-column: 1/1;
-    grid-row: 1/1;
-    overflow: hidden;
+.anim-1 {
+    grid-column     : 1/1;
+    grid-row        : 1/1;
+    overflow        : hidden;
     background-image: url(../img/aladdin.jpg);
-    transform: rotateY(51.40deg) translateZ(360px);
+    transform       : rotateY(51.40deg) translateZ(360px);
 }
 
-.anim-2{
-    grid-column: 1/1;
-    grid-row: 1/1;
-    overflow: hidden;
+.anim-2 {
+    grid-column     : 1/1;
+    grid-row        : 1/1;
+    overflow        : hidden;
     background-image: url(../img/adtral.jpg);
-    transform: rotateY(102.80deg) translateZ(360px);
+    transform       : rotateY(102.80deg) translateZ(360px);
 }
 
-.anim-3{
-    grid-column: 1/1;
-    grid-row: 1/1;
-    overflow: hidden;
+.anim-3 {
+    grid-column     : 1/1;
+    grid-row        : 1/1;
+    overflow        : hidden;
     background-image: url(../img/joker.jpg);
-    transform: rotateY(154.20deg) translateZ(360px);
+    transform       : rotateY(154.20deg) translateZ(360px);
 }
 
-.anim-4{
-    grid-column: 1/1;
-    grid-row: 1/1;
-    overflow: hidden;
+.anim-4 {
+    grid-column     : 1/1;
+    grid-row        : 1/1;
+    overflow        : hidden;
     background-image: url(../img/terminator.jpg);
-    transform: rotateY(205.60deg) translateZ(360px);
+    transform       : rotateY(205.60deg) translateZ(360px);
 }
 
-.anim-5{
-    grid-column: 1/1;
-    grid-row: 1/1;
-    overflow: hidden;
+.anim-5 {
+    grid-column     : 1/1;
+    grid-row        : 1/1;
+    overflow        : hidden;
     background-image: url(../img/star\ wars.jpeg);
-    transform: rotateY(256deg) translateZ(360px);
+    transform       : rotateY(256deg) translateZ(360px);
 }
 
-.anim-6{
-    grid-column: 1/1;
-    grid-row: 1/1;
-    overflow: hidden;
+.anim-6 {
+    grid-column     : 1/1;
+    grid-row        : 1/1;
+    overflow        : hidden;
     background-image: url(../img/edgame.jpeg);
-    transform: rotateY(307.40deg) translateZ(360px);
+    transform       : rotateY(307.40deg) translateZ(360px);
 }
 
-.anim-7{
-    grid-column: 1/1;
-    grid-row: 1/1;
-    overflow: hidden;
+.anim-7 {
+    grid-column     : 1/1;
+    grid-row        : 1/1;
+    overflow        : hidden;
     background-image: url(../img/adios.jpeg);
-    transform: rotateY(358.80deg) translateZ(360px);
+    transform       : rotateY(358.80deg) translateZ(360px);
 }
 
-@keyframes rotar{
-    from{
+@keyframes rotar {
+    from {
         transform: rotateY(0deg);
-    }to{
+    }
+
+    to {
         transform: rotateY(360deg);
     }
 }
