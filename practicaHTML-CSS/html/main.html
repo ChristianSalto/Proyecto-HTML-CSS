@@ -19,7 +19,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <divarticle class="container">
         <header class="header">
             <nav class="nav">
                 <div class="logo">
@@ -31,10 +31,12 @@
                         <li class="li-nav"><a href="#series" class="a-nav">Series</a></li>
                         <li class="li-nav"><a href="#documentales" class="a-nav">Documentales</a></li>
                     </ul>
-                    <div class=" div-search">
-                        <input type="text" class="search" placeholder="buscando...">
-                        <button type="submit" class="button-search"><span class="icon-search"></span></button>
-                    </div>
+                    <form action="main.html">
+                        <div class=" div-search">
+                            <input type="text" class="search" placeholder="buscando...">
+                            <button type="submit" class="button-search"><span class="icon-search"></span></button>
+                        </div>
+                    </form>
                 </div>
             </nav>
             <div class="buscador"></div>
@@ -53,7 +55,7 @@
         <aside class="aside-left">
             <div class="div-a-L">
                 <h2 class="h2-div-L">POR GENEROS:</h2>
-                <p class="categorias">Categorias:</p>
+                <h3 class="categorias">Categorias:</h3>
                 <select name="categoria" class="select-L">
                     <option value="1">Ficcion</option>
                     <option value="2">Terror</option>
@@ -85,35 +87,42 @@
                 <a class="a" href="">2019</a>
             </div>
             <div class="div-series">
-                <p class="p-series" id="series">Aqui os dejamos una seleccion de las mejores serie hasta el momento:
+                <div class="p-series" id="series">Aqui os dejamos una seleccion de las mejores serie hasta el momento:
                     <ul class="ul-series">
-                        <li><a href="">La casa de papel</a></li></br>
-                        <li><a href="">Carnival Row</a></li></br>
-                        <li><a href="">Juego de tronos</a></li></br>
-                        <li><a href="">Vikingos</a></li></br>
-                        <li><a href="">Breaking Bad</a></li></br>
-                        <li><a href="">Stranger Things</a></li></br>
-                        <li><a href="">True Detective</a></li></br>
-                        <li><a href="">The Last Kingdom</a></li></br>
+                        <li><a href="">La casa de papel</a></li>
+                        </br>
+                        <li><a href="">Carnival Row</a></li>
+                        </br>
+                        <li><a href="">Juego de tronos</a></li>
+                        </br>
+                        <li><a href="">Vikingos</a></li>
+                        </br>
+                        <li><a href="">Breaking Bad</a></li>
+                        </br>
+                        <li><a href="">Stranger Things</a></li>
+                        </br>
+                        <li><a href="">True Detective</a></li>
+                        </br>
+                        <li><a href="">The Last Kingdom</a></li>
+                        </br>
                     </ul>
-                </p>
+                </div>
             </div>
         </aside>
         <div class="efecto">
-            <h1 class="h1-welcome">You are Welcome
-                <audio class="audio" src="../sound/the-last-of-the-starks-extended.mp3" controls></audio>
-                <audio class="audio" src="../sound/davy-jones-lyrics.mp3" controls></audio>
-                <audio class="audio" src="../sound/b-s-o-el-ultimo-mohicano.mp3" controls></audio>
-            </h1>
+            <h1 class="h1-welcome">You are Welcome</h1>
+            <audio class="audio" src="../sound/the-last-of-the-starks-extended.mp3" controls></audio>
+            <audio class="audio" src="../sound/davy-jones-lyrics.mp3" controls></audio>
+            <audio class="audio" src="../sound/b-s-o-el-ultimo-mohicano.mp3" controls></audio>
         </div>
         <main class="main" id="pelis">
             <h3 class="h3-main">Ficcion</h3>
             <section class="ficcion">
-                <div class="box-film">
+                <article class="box-film">
                     <div class="front"><img src="../img/joker.jpg" alt="joker"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
-                        <a href="">
+                        <a href="../html/detail.html">
                             <h4>Play</h4>
                         </a>
                         <h2>Sinopsis:</h2>
@@ -123,8 +132,8 @@
                             Película basada en Joker, el popular personaje de DC Comics y archivillano de Batman,
                             pero que en este film toma un cariz más realista y oscuro.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/aladdin.jpg" alt="aladdin"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
@@ -138,8 +147,8 @@
                             concederá todos sus deseos. Allí es donde Aladdín conocerá al Genio, dando inicio a una
                             aventura como nunca antes había imaginado.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/terminator.jpg" alt="termineitor 6"></div>
                     <div class="back">
                         <h1 class="h1-back">* * *</h1>
@@ -150,8 +159,8 @@
                         <p class="p-back">Sarah Connor une todas sus fuerzas con una mujer cyborg para proteger a una
                             joven de un extremadamente poderoso y nuevo Terminator.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/edgame.jpeg" alt="edgame"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
@@ -164,13 +173,13 @@
                             con el villano definitivamente. No saben si funcionará, pero es su única oportunidad de
                             intentarlo. Cuarta entrega de la saga Vengadores.</p>
                     </div>
-                </div>
+                </article>
             </section>
             <h3 class="h3-main">Terror</h3>
             <section class="terror">
-                <div class="box-film">
-                    <div class="front"><img src="../img/La_casa_del_terror.jpg" alt="La_casa_del_terror"
-                            class="prueba"></div>
+                <article class="box-film">
+                    <div class="front"><img src="../img/La_casa_del_terror.jpg" alt="La_casa_del_terror" class="prueba">
+                    </div>
                     <div class="back">
                         <h1 class="h1-back">* * *</h1>
                         <a href="">
@@ -181,8 +190,8 @@
                             ofrecer una experiencia extrema a base de explotar sus miedos más profundos. La noche se
                             volverá mortal cuando se den cuenta de que algunos monstruos son reales.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/muñeco diabolico.jpeg" alt="muñeco diabolico"></div>
                     <div class="back">
                         <h1 class="h1-back">* * *</h1>
@@ -193,8 +202,8 @@
                         <p class="p-back">Una madre le regala a su hijo un muñeco por su cumpleaños, sin ser consciente
                             de la naturaleza maligna que esconde en su interior.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/halloween.jpg" alt="halloween"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
@@ -208,8 +217,8 @@
                             entrega de "Halloween", secuela directa de la original de 1978. John Carpenter (creador de
                             la original) es el productor ejecutivo.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/it2.jpg" alt="it2"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
@@ -225,13 +234,13 @@
                             temible payaso para descubrir si de verdad están preparados para superar sus traumas de la
                             infancia.</p>
                     </div>
-                </div>
+                </article>
             </section>
             <h3 class="h3-main">Romanticas</h3>
             <section class="romanticas">
-                <div class="box-film">
-                    <div class="front"><img src="../img/un espacio entre nosotros.jpeg"
-                            alt="unEspacioEntreNosotros"></div>
+                <article class="box-film">
+                    <div class="front"><img src="../img/un espacio entre nosotros.jpeg" alt="unEspacioEntreNosotros">
+                    </div>
                     <div class="back">
                         <h1 class="h1-back">* *</h1>
                         <a href="">
@@ -242,8 +251,8 @@
                             se enamora de una chica de la Tierra, con la que se ha estado comunicando, por lo que
                             comienza su viaje para poder verla. </p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/grease.jpeg" alt="grease"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
@@ -257,8 +266,8 @@
                             Danny ya no es la misma: ya no es el chico encantador y atento que encandiló a Sandy; ahora
                             es engreído e insensible. </p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/your name.jpeg" alt="yourName"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
@@ -271,8 +280,8 @@
                             torpemente un reto tras otro, se va creando entre los dos un vínculo que poco a poco se
                             convierte en algo más romántico.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/titanic.jpg" alt="titanic"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
@@ -288,11 +297,11 @@
                             prometido y la madre de ella ponen todo tipo de trabas a su relación. Mientras, el
                             gigantesco y lujoso transatlántico se aproxima hacia un inmenso iceberg.</p>
                     </div>
-                </div>
+                </article>
             </section>
             <h3 class="h3-main">Belicas</h3>
             <section class="belicas">
-                <div class="box-film">
+                <article class="box-film">
                     <div class="front"><img src="../img/ultiomo mhicano.jpg" alt="UltimoMohicano"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
@@ -309,8 +318,8 @@
                             las acompaña hasta el fuerte inglés William Henry, que está sufriendo el asedio de los
                             franceses y los hurones.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/Pearl_Harbo.jpg" alt="PearlHarbo"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
@@ -326,8 +335,8 @@
                             contra los alemanes. Mientras tanto, Danny y Evelyn son enviados a la base aérea de Pearl
                             Harbor en Hawai.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/hasta ultimo hombre.jpeg" alt="hastaElUltimoHombre"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * *</h1>
@@ -341,8 +350,8 @@
                             Honor del Congreso. Doss quería servir a su país, pero desde pequeño se había hecho una
                             promesa a sí mismo: no coger jamás ningún arma.</p>
                     </div>
-                </div>
-                <div class="box-film">
+                </article>
+                <article class="box-film">
                     <div class="front"><img src="../img/braveheart.jpg" alt="braveheart"></div>
                     <div class="back">
                         <h1 class="h1-back">* * * * *</h1>
@@ -355,7 +364,7 @@
                             su tierra despues de muchos años de ausencia. Siendo un niño, toda su familia fue asesinada
                             por los ingleses, razón por la cual se fue a vivir lejos con un tío suyo.</p>
                     </div>
-                </div>
+                </article>
             </section>
             <div class="page">
                 <div class="item"><a href="">1</a></div>
@@ -375,19 +384,25 @@
                 <h1>Recomendacion:</h1>
                 <h3>"El Irlandes"</h3>
                 <div></div>
-                <a href="../video/el-irlandes-trailer-final.mp4">Ver Trailer</a>
+                <video class="video" src="../video/el-irlandes-trailer-final.mp4" width=250 height=200 controls></video>
             </div>
-            <div class="div-documentales">
-                <p class="p-documentales" id="documentales">Disfruta y aprende con nuestros mejores documentales:
+            <a href="../video/el-irlandes-trailer-final.mp4" class="trailer">Trailer</a>
+            <article class="div-documentales">
+                <div class="p-documentales" id="documentales">Disfruta y aprende con nuestros mejores documentales:
                     <ul class="ul-documentales">
-                        <li><a href="">Antes que sea tarde</a></li></br>
-                        <li><a href="">Ice on Fire</a></li></br>
-                        <li><a href="">Los misterios del sol</a></li></br>
-                        <li><a href="">El dominio de los algoritmos</a></li></br>
-                        <li><a href="">Universo vivo: Los cazadores de planetas</a></li></br>
+                        <li><a href="">Antes que sea tarde</a></li>
+                        </br>
+                        <li><a href="">Ice on Fire</a></li>
+                        </br>
+                        <li><a href="">Los misterios del sol</a></li>
+                        </br>
+                        <li><a href="">El dominio de los algoritmos</a></li>
+                        </br>
+                        <li><a href="">Universo vivo: Los cazadores de planetas</a></li>
+                        </br>
                     </ul>
-                </p>
-            </div>
+                </div>
+            </article>
         </aside>
         <footer class="footer">
             <div class="container-footer">
@@ -411,6 +426,7 @@
                 </form>
             </div>
         </footer>
-    </div>
+        </div>
 </body>
+
 </html>

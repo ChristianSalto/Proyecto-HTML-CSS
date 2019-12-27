@@ -5,8 +5,8 @@
 
 .aside-right>div {
     text-align: center;
-    height    : flex;
-    width     : flex;
+  /*  height    : flex;
+    width     : flex;*/
 }
 
 .idiomas>a {
@@ -62,4 +62,8 @@
 
 .ul-documentales>li a:hover {
     color: rgb(247, 191, 38);
+}
+
+.trailer{
+    visibility: hidden;
 }

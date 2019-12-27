@@ -1,8 +1,8 @@
 section {
     display        : flex;
     justify-content: center;
-    width          : flex;
-    height         : flex;
+  /*  width          : flex;
+    height         : flex;*/
     flex-direction : row;
     flex-flow      : wrap;
 }
@@ -33,8 +33,8 @@ a {
 .page {
     display        : flex;
     justify-content: center;
-    width          : flex;
-    height         : flex;
+  /*  width          : flex;
+    height         : flex;*/
 }
 
 .page>div {

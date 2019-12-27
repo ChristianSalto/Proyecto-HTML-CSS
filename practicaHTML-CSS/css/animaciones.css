@@ -57,7 +57,7 @@
     grid-column     : 1/1;
     grid-row        : 1/1;
     overflow        : hidden;
-    background-image: url(../img/star\ wars.jpeg);
+    background-image: url(../img/starwars.jpeg);
     transform       : rotateY(256deg) translateZ(360px);
 }
 

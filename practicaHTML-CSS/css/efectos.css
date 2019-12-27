@@ -2,17 +2,17 @@
 
 @media all and (max-width: 900px) {
     .logo::after {
-        content         : "";
-        position        : absolute;
+        content: "";
+        position: absolute;
         background-image: url(../img/diamante3.jpg);
-        margin-top      : -77px;
-        height          : 108px;
-        width           : 130px;
+        margin-top: -77px;
+        height: 108px;
+        width: 130px;
     }
 
     .h1-logo {
         font-size: 20px;
-        opacity  : 0;
+        opacity: 0;
     }
 }
 
@@ -20,36 +20,37 @@
 
 @font-face {
     font-family: 'Fontdiner Swanky';
-    src        : url(../Font/FontdinerSwanky-Regular.ttf);
+    src: url(../Font/FontdinerSwanky-Regular.ttf);
 }
 
 @font-face {
     font-family: blacknight;
-    src        : url(../Font/BlackKnightFLF.ttf);
+    src: url(../Font/BlackKnightFLF.ttf);
 }
 
 .h1-welcome {
-    color      : rgb(247, 191, 38);
+    color: rgb(247, 191, 38);
     font-family: 'Fontdiner Swanky';
-    font-size  : 50px;
-    transform  : translateX(-20%);
-    opacity    : 0;
+    font-size: 40px;
+    /*transform  : translateX(-20%);
+    opacity    : 0;*/
 }
 
+/*
 .efecto:hover .h1-welcome {
     visibility: visible;
     transform : translateX(0%);
     transition: 5s;
     opacity   : 1;
 }
-
+*/
 .audio {
-    display      : block;
-    margin-left  : 180px;
-    opacity      : 0.3;
+    display: block;
+    margin-left: 220px;
+    opacity: 0.3;
     border-radius: 20px 20px 20px 20px;
-    box-shadow   : 0px 0px 10px grey;
-    height       : 20px;
+    box-shadow: 0px 0px 10px grey;
+    height: 20px;
 }
 
 
@@ -57,51 +58,51 @@
 
 
 .box-film {
-    margin : 10px;
-    width  : 150px;
-    height : 200px;
+    margin: 10px;
+    width: 150px;
+    height: 200px;
     z-index: 0;
 }
 
-.box-film>div {
+.box-film > div {
     position: absolute;
-    width   : 100%;
-    height  : 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .front {
-    opacity   : 0.70;
+    opacity: 0.70;
     box-shadow: inset 0px 5px 20px black;
 }
 
 .back {
     transform: translateZ(-100px) rotateY(90deg);
-    left     : 70px;
+    left: 70px;
 }
 
 .box-film {
     transition-duration: 0.8s;
-    transform-style    : preserve-3d;
-    transform-origin   : left center;
-    transform          : perspective(10000px);
+    transform-style: preserve-3d;
+    transform-origin: left center;
+    transform: perspective(10000px);
 }
 
 .box-film:hover {
     transform: perspective(1000px) rotateY(-85deg);
-    z-index  : 9999;
+    z-index: 9999;
 }
 
 .p-back {
     transform: translateY(-20%);
-    color    : white;
-    opacity  : 0;
+    color: white;
+    opacity: 0;
     font-size: 13px;
 }
 
 .back:hover .p-back {
-    transform : translateY(0%);
+    transform: translateY(0%);
     transition: 5s;
-    opacity   : 1;
-    color     : white;
-    font-size : 13px;
+    opacity: 1;
+    color: white;
+    font-size: 13px;
 }
